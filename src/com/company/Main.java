@@ -7,15 +7,14 @@ public class Main {
         //int n=scan.nextInt();
         double c=0, d=0;
            for( int n=2; n<=5; n++){
-           // for (int  c = 1; c<=100; c++){
+            for (int  c = 1; c<=100; c++){
                 for (int a = 1; a <=10; a++)
                     for (int b = 1; b <= 10; b++){
                     //c=(Math.pow(a, n));
                         d=(Math.pow(a, n)+Math.pow(b,n));
-                        c=Math.pow(d,1/n);
-                            System.out.println("a^n+b^n="+Math.pow(c, n));
-                        System.out.println("a^n+d^n="+d);
-                        System.out.println("d,1/n"+c);
+                        if (Math.pow(c,n) == d)
+                            System.out.println(a+"^" + n + "+ " +b+"^"+n+"="+d;
+                    
             }}}}
         /*String s1="stroka1", s2="stroka2", s3="stroka3", s4="stroka4", s5="stroka5";
         if (s4==s5){
